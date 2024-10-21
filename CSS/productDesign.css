@@ -1,0 +1,91 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idBuscador{
+    width: 700px;
+    height: 45px;
+}
+
+#idBuscadorCaja{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#idIconoBuscar{
+    background-color: rgb(112, 194, 233);
+    border: none;
+    fill: rgb(12, 45, 87);
+    height: 37px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main{
+    color: red;
+}
+
+#idCarrito{
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+/* COMENTARIOS */
+#idPComentAvatar{
+    height: 120px;
+    width: 120px;
+}

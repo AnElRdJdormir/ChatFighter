@@ -1,0 +1,290 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idCarrito{
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+/* CUERPO */
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+    font-family: Tahoma;
+}
+
+#idShCSubtitulos{
+    display: flex;
+    justify-content: center;
+}
+
+#idShCSubtitulos label{
+    background-color: rgb(4, 71, 122);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* PRODUCTO */
+
+#idShCProductoContainer{
+    background-color: white;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    width: 800px;
+    margin: 15px 0 18px 15px;
+    padding: 25px 30px 5px 30px;
+}
+
+#idShCProductoContainer.container{
+    display: flex;
+    float: left;
+}
+
+#idShCProducto{
+    padding-bottom: 20px;
+}
+
+#idShCFotoProducto{
+    object-fit:cover;
+    width: 150px;
+    height: 150px;
+}
+
+#idShCNombreProducto{
+    font-weight: bold;
+}
+
+#idShCInfoProducto ul li{
+    color: rgb(232, 78, 55);
+}
+
+#idShCVendedorProducto{
+    color: rgb(83, 141, 169);
+}
+
+#idShCCantidadCarrito{
+    outline: none;
+    border: 2px solid;
+    border-color: rgba(12, 45, 87, 0.2);
+}
+
+/* COLUMNA 1 */
+#idShoppingCartProduct{
+    background-color: white;
+    margin: 20px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    height: max-content;
+}
+
+#idWLFoto{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-block: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+}
+
+#idWLInfo{
+    margin-block: 10px;
+    margin-inline: 15px;
+}
+
+#idWLInfo h5{
+    font-weight: bold;
+}
+
+#idWLInfo.info{
+    display: inline;
+}
+
+#idWLInfo.info label.item-1{
+    font-weight: bold;
+    color: rgb(4, 71, 122);
+}
+
+#idSHEliminarProducto{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    padding: 0;
+}
+
+/* COLUMNA 2 */
+
+#idShoppingCart.container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+/* DIRECCION */
+
+#idShCDireccion{
+    background-color: white;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    margin-block: 20px;
+    margin-inline: 10px;
+    padding: 25px 30px;
+    font-size: 18px;
+}
+
+#idShCDireccion h4{
+    font-weight: bold;
+}
+
+#idShCDireccion p.card-subtitle.mb-2.text-muted{
+    padding-top: 10px;
+}
+
+#direccionEnvioResultado{
+    font-size: 14px;
+    padding-top: 5px;
+    color:rgb(12, 45, 87);
+}
+
+#btnShCDireccion{
+    border: none;
+    background-color: rgb(112, 194, 233);
+    color:rgb(12, 45, 87);
+    outline: none;
+}
+
+#btnShCDireccion:hover{
+    background-color: rgb(94, 166, 218);
+}
+
+/* TOTAL */
+
+#idShCTotal{
+    background-color: white;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    margin-block: 20px;
+    margin-inline: 10px;
+    padding: 25px 30px;
+    font-size: 14px;
+}
+
+#idShCTextoPrecio{
+    padding: 5px 0;
+}
+
+#idShCTextoPrecio div label.item-1{
+    font-weight: bold;
+}
+
+#idShCTextoTotal{
+    color: rgb(4, 71, 122);
+    font-size: 25px;
+}
+
+#idShPrecioTotal{
+    font-size: 25px;
+}
+
+#btnCarritoPago{
+    background-color: rgb(252, 103, 54);
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    transition: 200ms;
+}
+
+#btnCarritoPago:hover{
+    background-color: rgb(232, 78, 55);
+    font-size: 28px;
+    border-radius: 25px;
+}
+
+#idBorrarCarrito{
+    position: absolute;
+    margin-top: 40px;
+}
+
+#btnBorrarCarrito{
+    background-color: rgb(214, 57, 57);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    transition: 200ms;
+}
+
+#btnBorrarCarrito:hover{
+    background-color: brown;
+    color: white;
+}
+
+#btnBorrarCarrito label{
+    margin-left: 5px;
+}
+
+.footer{
+    width: 100% !important;
+    height: 123px !important;
+    overflow: hidden;
+}

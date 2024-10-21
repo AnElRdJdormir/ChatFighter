@@ -1,0 +1,543 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idCarrito{
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+/* CUERPO */
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+    font-family: Tahoma;
+}
+
+#idUPUsuarioInfo{
+    background-color: rgb(232, 78, 55);
+    margin-top: -5px;
+    padding: 25px 25% 25px 25%;
+}
+
+#idUPUsuarioInfo ul{
+    font-size: 19px;
+    font-style: italic;
+    color: white;
+}
+
+#idUPAvatar {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+}
+
+#idUPNombreUsuario{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+
+#idUPRol{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(253, 233, 206);
+}
+
+#idUPUsuarioID{
+    font-size: 28px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+
+#idUPPrivacidad{
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(253, 233, 206);
+}
+
+#idUPListaBtns{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#idUPListaBtns li{
+    padding: 0;
+    background-color: transparent;
+    border:none;
+    margin-right: 10px;
+}
+
+#btnUPEditarUsuario{
+    background-color: rgb(112, 194, 233);
+    color: rgb(12, 45, 87);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    transition: 150ms;
+    font-size: 15px;
+}
+
+#btnUPEditarUsuario.item-1{
+    margin-block: 10px;
+}
+
+#btnUPEditarUsuario:hover{
+    background-color: rgb(94, 166, 218);
+}
+
+#idUPProductoDeseoContainer.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+#idUPSubtitulos{
+    display: flex;
+    justify-content: center;
+    margin-block: 10px;
+}
+
+#idUPSubtitulos label{
+    background-color: rgb(4, 71, 122);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#idUPSubtitulos.item-1{
+    margin-top: 0px;
+}
+
+/* LISTA DE DESEOS */
+#idUPProductoDeseo{
+    background-color: rgb(255, 201, 176);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 300px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0px;
+    transition: 300ms ease-in-out;
+}
+
+#idUPProductoDeseo:hover{
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(12, 44, 87, 0.4);
+}
+
+#idInfoProductoDeseo{
+    padding: 10px;
+    font-family: Tahoma;
+}
+
+#idInfoProductoDeseo ul{
+    margin-top: 5px;
+}
+
+#idNombreProductoDeseo{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#idPrecioProductoDeseo{
+    font-size: 20px;
+    color: rgb(83, 141, 169);
+}
+
+#idInfoProductoDeseo ul div li{
+    font-size: 16px;
+    color: rgb(232, 78, 55);
+}
+
+#idVendedorProductoDeseo{
+    font-size: 16px;
+    text-align: right;
+    color: rgb(12, 45, 87);
+}
+
+#idFotoProductoDeseo{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    object-fit:cover;
+    width: 100%;
+    height: 300px;
+}
+
+#idUPCarritoDeseo{
+    display: flex;
+}
+
+#idUPCarritoDeseo .item-2{
+    flex-grow: 1;
+}
+
+#idUPCantidadCarrito{
+    outline: none;
+    height: 42px;
+    width: 50px;
+    margin-top: -3px;
+    border: none;
+}
+
+#idUPCantidadCarrito:focus{
+    pointer-events: none;
+}
+
+#btnUPAgregarAlCarrito{
+    display: flex;
+    float:right;
+    justify-content: center;
+    background-color: rgb(80, 160, 197);
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: -3px 0 0 10px;
+    font-size: 16px;
+    transition: 150ms;
+}
+
+#btnUPAgregarAlCarrito:hover{
+    background-color: rgb(83, 141, 169);
+}
+
+#btnUPAgregarAlCarrito label{
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+#idUPPaginacion1{
+    display: flex;
+    justify-content: center;
+}
+
+#idUPPaginacion1 ul li a{
+    background-color: rgb(112, 194, 233);
+    color: rgb(12, 45, 87);
+}
+
+#idUPPaginacion1 ul li a.page-link.active{
+    background-color: rgb(252, 103, 54);
+    border-color: rgb(252, 103, 54);
+    color: white;
+}
+
+#idUPPaginacion1 ul li a.page-link.prev-next{
+    background-color: rgb(4, 71, 122);
+    border-color: rgb(4, 71, 122);
+    color: white;
+}
+
+/* HISTORIAL DE PEDIDOS */
+#idUPProductoPedidoContainer.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 2em;
+    margin: 0 auto;
+}
+
+#idUPProductoPedido{
+    background-color: rgb(255, 201, 176);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 300px;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 0px;
+    transition: 300ms ease-in-out;
+}
+
+#idUPProductoPedido:hover{
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(12, 44, 87, 0.4);
+}
+
+#idInfoProductoPedido{
+    padding: 10px 10px 0 10px;
+    font-family: Tahoma;
+}
+
+#idInfoProductoPedido ul{
+    margin-top: 5px;
+}
+
+#idNombreProductoPedido{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#idPrecioProductoPedido{
+    font-size: 20px;
+    color: rgb(83, 141, 169);
+}
+
+#idInfoProductoPedido ul div li{
+    font-size: 16px;
+    color: rgb(232, 78, 55);
+}
+
+#idVendedorProductoPedido{
+    font-size: 16px;
+    text-align: right;
+    color: rgb(12, 45, 87);
+}
+
+#btnUPCancelarPedido{
+    display: flex;
+    float:right;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 57, 57);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: -3px 0 10px 10px;
+    height: 42px;
+    width: 150px;
+    border-radius: 10px;
+    transition: 150ms;
+}
+
+#btnUPCancelarPedido:hover{
+    background-color: brown;
+}
+
+#idFotoProductoPedido{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    object-fit:cover;
+    width: 100%;
+    height: 300px;
+}
+
+#idUPPaginacion2{
+    display: flex;
+    justify-content: center;
+}
+
+#idUPPaginacion2 ul li a{
+    background-color: rgb(112, 194, 233);
+    color: rgb(12, 45, 87);
+}
+
+#idUPPaginacion2 ul li a.page-link.active{
+    background-color: rgb(252, 103, 54);
+    border-color: rgb(252, 103, 54);
+    color: white;
+}
+
+#idUPPaginacion2 ul li a.page-link.prev-next{
+    background-color: rgb(4, 71, 122);
+    border-color: rgb(4, 71, 122);
+    color: white;
+}
+
+#idCrearListas{
+    background-color: rgb(255, 201, 176);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+    width: 50%;
+    text-align: end;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#idCrearListas h4{
+    font-weight: bold;
+}
+
+#idCrearListas p{
+    color:rgb(4, 71, 122);
+    font-size: 18px;
+}
+
+#idCrearListas h6{
+    color: brown;
+}
+
+
+#idCrearListas a{
+    margin-top: 5px;
+    background-color:rgb(232, 78, 55);
+    border: none
+}
+
+#idCrearListas a:hover{
+    background-color: brown;
+}
+
+/* LISTAS */
+#idListaContainer.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#idListaContainer .row{
+    background: linear-gradient(90deg, #0C2D57 47.27%, #70C2E9 47.27%);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 280px;
+    width: 650px;
+    padding: 0px;
+    margin: auto auto 20px auto;
+
+    transition: 300ms ease-in-out;
+}
+
+#idListaContainer .row:hover{
+    /* margin-left: -10px; */
+    box-shadow: 0px 0px 10px 1px rgba(12, 44, 87, 0.4);
+}
+
+#idFotoLista{
+    padding: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    object-fit:cover;
+    height: 280px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+#idInfoLista{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 17px;
+}
+
+#idNombreLista{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#idInfoLista .privacy{
+    color: rgb(4, 71, 122);
+}
+
+#idDescLista{
+    color: #292938a8;
+}
+
+#btnVerLista{
+    border: none;
+    background-color:#0C2D57;
+    color: white;
+    transition: all 300ms;
+}
+
+#btnVerLista:hover{
+    background-color: white;
+    color: #0C2D57;
+}
+
+#idBtnsLista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: 3em;
+}
+
+#idInfoLista a.btn-danger{
+    border: none;
+    outline: none;
+    background-color: rgb(214, 57, 57);
+    margin-left: 10px;
+}
+
+#idInfoLista a.btn-danger:hover{
+    background-color: brown;
+}
+
+#idInfoLista a.btn-warning{
+    border: none;
+    outline: none;
+    background-color: rgb(252, 141, 68);
+    color: white;
+}
+
+#idInfoLista a.btn-warning:hover{
+    background-color: rgb(252, 103, 54);
+}
+
+#idUserLista{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer{
+    width: 100% !important;
+    height: 123px !important;
+    overflow: hidden;
+}

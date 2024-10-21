@@ -1,0 +1,462 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idBuscador{
+    width: 700px;
+    height: 45px;
+}
+
+#idBuscadorCaja{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#idIconoBuscar{
+    background-color: rgb(112, 194, 233);
+    fill: rgb(12, 45, 87);
+    height: 45px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#idCarrito{
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+/* CUERPO */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Mukta:wght@300;500;700&family=Protest+Strike&display=swap');
+
+/*Diseño de la info del producto*/
+
+.container-title{
+    font-family: Tahoma;
+    font-size: 50px;
+    padding: 15px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+main{
+    font-family: Tahoma;
+    background-color: #f7f7f9;
+    display: flex;
+    gap:30px;
+    margin-bottom: 80px;
+}
+
+.container-img{
+    
+    flex: 1;
+}
+
+.container-info-product{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+}
+
+.container-price{
+    font-family: Tahoma;
+    font-size: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-price span{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container-details-product{
+    padding: 30px 0;
+}
+
+.container-add-cart{
+    font-family: Tahoma;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.container-quantity{
+    position: relative;
+}
+
+.input-quantity{
+    background-color: #f7f7f9;
+    font-family: Tahoma;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 100%;
+    color: #666;
+    font-weight: 500;
+}
+
+.input-quantity:focus{
+    outline: none;
+}
+
+.input-quantity::-webkit-inner-spin-button,
+.input-quantity::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.btn-increment-decremet{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.btn-increment-decremet i{
+    font-size: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.fa-chevron-up:hover{
+    color:rgb(252, 103, 54);
+}
+
+.fa-chevron-down:hover{
+    color:rgb(252, 103, 54);
+}
+
+.btn-add-to-cart{
+    border: none;
+    background-color:rgb(252, 103, 54);
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.btn-add-to-cart:hover{
+    color: rgb(255, 201, 176);
+}
+
+.hidden{
+    display: none;
+}
+
+.container-description,
+.container-additional-information,
+.container-reviews{
+    font-family: Tahoma;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0;
+}
+
+.title-description,
+.title-additional-information,
+.title-reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title-description h4,
+.title-additional-information h4,
+.title-reviews h4{
+    font-weight: 300;
+    color: rgb(12, 45, 87);
+    font-size: 30px;
+}
+
+.text-description,
+.text-additional-information,
+.text-reviews{
+    font-family: Tahoma;
+    font-size: 25px;
+    color: #252525;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.container-social{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 15px 0;
+    align-items: center;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+.container-social span{
+    font-family: Tahoma;
+    font-weight: 300;
+    color: rgb(12, 45, 87);
+    font-size: 30px;
+}
+
+.container-buttons-social{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.container-buttons-social a:link,
+.container-buttons-social a:visited{
+    font-size: 40px;
+}
+
+.container-buttons-social a:hover{
+    color: #1bbeb4;
+}
+
+/*Diseño de los productos sugeridos*/
+
+.container-related-products h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-list-products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card-img{
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.2);
+}
+
+.info-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-product{
+    color: #252525;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.text-product h3{
+    font-family: Tahoma;
+    color:inherit;
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.text-product h3:hover{
+    color:rgb(12, 45, 87);
+}
+
+
+
+.text-product p{
+    font-family: Tahoma;
+    color:inherit;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+.text-product p:hover{
+    color:rgb(12, 45, 87);
+}
+
+.info-card .price{
+    font-family: Tahoma;
+    color:inherit;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+}
+
+#idTags{
+    background-color: rgb(252, 103, 54);
+    color: white;
+    font-family: Tahoma;
+    font-size: 50px;
+    padding: 150px;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-top: 200px;
+    margin-bottom: 280px;
+    width: 300px;
+}
+
+#idTagsTitulo{
+    font-weight: bold;
+}
+
+#idTagsOpciones:hover{
+    background-color: rgb(255, 201, 176);
+    color: rgb(12, 45, 87);
+}
+
+#idTagsOpcionTexto{
+    font-size: 20px;
+}
+
+#flexCheckDefault:checked{
+    background-color: rgb(12, 45, 87);
+    border-color: rgb(12, 45, 87);
+}
+
+#idPostProducto{
+    background-color: rgb(255, 201, 176);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 250px;
+    height: 355px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding: 0px;
+    transition: 300ms ease-in-out;
+}
+
+#idPostProducto:hover{
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(12, 44, 87, 0.4);
+}
+
+#idInfoProducto{
+    padding: 10px;
+    font-family: Tahoma;
+}
+
+#idNombreProducto{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#idPrecioProducto{
+    font-size: larger;
+    color: rgb(83, 141, 169);
+}
+
+#idTag1Producto{
+    font-size: 14px;
+    color: rgb(232, 78, 55);
+}
+
+#idTagsProducto{
+    font-size: 14px;
+    color: rgb(232, 78, 55);
+}
+
+#idTag2Producto{
+    font-size: 14px;
+    color: rgb(232, 78, 55);
+}
+
+#idVendedorProducto{
+    font-size: 14px;
+    text-align: right;
+    color: rgb(12, 45, 87);
+}
+
+#idFotoProducto{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.footer{
+    width: 100% !important;
+    height: 123px !important;
+    overflow: hidden;
+}
+
+
+
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHAT FIGHTERS || Registro</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <link rel="stylesheet" href="CSS/Register2Design.css">
+
+    </head>
+
+    <body id="idBody">
+        <div id="scroll-target"></div>
+    
+        <div id="alert-success" class="alert alert-dismissible alert-success" style="display: none;">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Usuario Registrado Correctamente.</strong> 
+        </div>
+        
+        <div id="alert-error" class="alert alert-dismissible alert-danger" style="display: none;">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Error: Por favor, corrija los campos resaltados.</strong> 
+        </div>
+
+        <!-- CUERPO -->
+        <div id="idRegister" class="form-box form-value container">
+            <form action ="registro.php" id="registerForm" method="POST" enctype="multipart/form-data">
+        
+            <div class="row">
+                <label id="idRegisterTitulo" class="text">Registro</label>
+            </div>
+
+            
+            <div class="row">
+                <div class="col">
+                    <div class="idRegisterAvatar">
+                        <div class="Titulo">
+                            <img id="idImagen" src="Images/POI/Icono.png" width="300px" />
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <img id="idRegisterAvatarSample" src="Images/POI/random.png" 
+                            class="rounded-circle"alt="example placeholder">
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="d-flex justify-content-center" >
+                        <div id="idRegisterAvatarBtn" name="idRegisterAvatarBtn" class="btn btn-primary btn-rounded">
+                            <input class="form-control" type="file" id="formFile" id="idRegisterAvatarBtn" name="idRegisterAvatarBtn"  onchange="mostrarAvatar(event, 'idRegisterAvatarSample')" accept="image/*">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <label id="idRegisterStep" class="text">Información Personal</label>
+                    <div id="idRegisterInputs" class="inputbox">
+                        <label for="ffullname">Nombre completo</label>
+                        <input id="txtFullname" name="txtFullname" type="text" required>
+                    </div>
+                    <div id="idRegisterInputs" class="inputbox">
+                        <label for="fusername">Nombre de Usuario</label>
+                        <input id="txtUsername" name="txtUsername" type="text" required>
+                        <small id="idRegisterInfo" class="form-text text-muted">
+                            Debe contener un mínimo de 3 carácteres.
+                        </small>
+                    </div>
+                    <div id="idRegisterInputs" class="inputbox item item-1">
+                        <label for="femail">Correo electrónico</label>
+                        <input id="txtEmail" name="txtEmail" type="email" required>
+                    </div>
+                    <div id="idRegisterInputs" class="inputbox">
+                        <label for="fpassword">Contraseña</label>
+                        <input id="txtPassword" name="txtPassword" type="password" required>
+                        <small id="idRegisterInfo" class="form-text text-muted">
+                            Debe contener un mínimo de 8 carácteres, una mayúscula, una
+                            minúscula, un número y un carácter especial.
+                        </small>
+                    </div>
+
+                    <div id="idRegisterInputs" class="inputbox item item-2">
+                        <label for="fdate">Fecha de Nacimiento: </label> 
+                        <input class="inputRegistrar" type="date" id="txtBirthdate" name="ffechanacimiento"/>
+                    </div>
+                    <div id="idRegisterRB" name="idRegisterRB">
+                        <label class="text">Género</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="RBH" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Hombre</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" id="RBM" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio1">Mujer</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div id="idRegisterBtns2" class="d-flex justify-content-between">
+                        <button id="btnRegister" type="submit">Confirmar Registro</button>                   
+                    </div>
+
+                    <ul class="navbar-nav mr-auto" id="Return">
+                        <li class="nav-item active">
+                            <a class="submit" href="Login.html">Regresar al Inicio</a>
+                        </li>
+                    </ul>
+
+                    <br>
+                    <div class="Titulo">
+                        <img id="idEmail" src="Images/POI/Email2.png" width="250px" />
+                    </div>
+                </div>
+            </div>
+            </form>
+            <script src="js/Register.js"></script>            
+        </div>
+    </body>
+</html>

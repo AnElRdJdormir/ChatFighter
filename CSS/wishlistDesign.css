@@ -1,0 +1,174 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idCarrito{
+    color: white;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+/* CUERPO */
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+    font-family: Tahoma;
+}
+
+#idLDSubtitulos{
+    display: flex;
+    justify-content: center;
+}
+
+#idLDSubtitulos label{
+    background-color: rgb(4, 71, 122);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* PRODUCTOS DE LA LISTA */
+
+#idWLProductos{
+    background-color: white;
+    margin-block: 20px;
+    margin-inline: 25px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+}
+
+#idWLFoto{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-block: 10px;
+    margin-inline: 15px;
+    border-radius: 20px;
+}
+
+#idWLInfo{
+    margin-block: 10px;
+    margin-inline: 15px;
+}
+
+#idWLInfo h5{
+    font-weight: bold;
+}
+
+#idWLInfo.info{
+    display: inline;
+}
+
+#idWLInfo.info label.item-1{
+    font-weight: bold;
+    color: rgb(4, 71, 122);
+}
+
+/* TOTAL */
+
+#idWLPrecio{
+    background-color: white;
+    margin-block: 20px;
+    margin-right: 25px;
+    margin-left: -5px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    height: max-content;
+    font-size: 15px;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    display: inline;
+}
+
+#idWLPrecio .cantidad label{
+    margin-block: 5px;
+}
+
+#idWLPrecio .cantidad label.item-1{
+    font-weight: bold;
+}
+
+#idWLPrecio .total{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#idWLPrecio .total label{
+    font-size: 22px;
+    margin-block: 10px;
+}
+
+#idWLPrecio .total label.item-1{
+    color:rgb(4, 71, 122);
+    font-weight: bold;
+}
+
+#idWLPrecio .carrito{
+    display: flex;
+    justify-content: center;
+}
+
+#btnWLCarrito{
+    background-color: rgb(80, 160, 197);
+    border: none;
+    width: 95%;
+}
+
+.footer{
+    width: 100% !important;
+    height: 123px !important;
+    overflow: hidden;
+}

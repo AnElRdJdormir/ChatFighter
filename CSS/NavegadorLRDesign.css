@@ -1,0 +1,39 @@
+
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+#idNav1{
+    background-color: rgb(252, 103, 54);
+    /*position: absolute;*/
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 10px;
+}

@@ -1,0 +1,22 @@
+
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+#idFooter{
+    background-color: rgb(87, 158, 192, 0.75);
+    color: rgb(198, 236, 251,0.75);
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+#idFooterLinks{
+    font-weight: bold;
+    color: white;
+}

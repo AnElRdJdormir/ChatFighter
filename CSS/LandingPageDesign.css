@@ -1,0 +1,192 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* NAVEGADOR */
+
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    margin-left: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+/* CUERPO */
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+    font-family: Tahoma;
+}
+
+#idLPPromoInicial{
+    background-color: rgb(112, 194, 233);
+    padding-block: 30px;
+}
+
+/* #idLPPromoInicial .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* #idLPPromoInicial div ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+#idLPPromoInicial div ul li img{
+    height: 350px;
+    width: 500px;
+} */
+
+#idLPPromoInicial .col{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 32px;
+    font-style: italic;
+    color: white;
+}
+
+#idLPPromoInicial .col.image{
+    justify-content: end;
+}
+
+#idLPPromoInicial img{
+    height: 350px;
+    width: 730px;
+    margin-left: 30px;
+}
+
+#idLPSubtitulos{
+    background-color: #fc6736;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    margin-block: 10px;
+}
+
+/* CATEGORIA DE PRODUCTOS */
+
+#idLPCatalogoContainer.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+#idLPCatalogoContainer .row{
+    /*#0c2d57
+    #e84e37*/
+    background: linear-gradient(90deg, #0c2d57 46.9%, white 46.9%);
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    height: 170px;
+    width: 400px;
+    margin: auto;
+    padding: 0px;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+#idLPCatalogoContainer .row:hover{
+    background: linear-gradient(90deg, #e84e37 46.9%, white 46.9%);
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    color:brown;
+}
+
+
+#idFotoCatalogo{
+    padding-block: 0;
+    object-fit:cover;
+    height: 170px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+
+#idNombreCatalogo{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* BENEFICIOS */
+#idLPBeneficios.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#idLPBeneficios ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+#idLPBeneficiosInfo{
+    background-color: white;
+    box-shadow: 0 5px 12px -2px rgba(0,0,0,0.1),
+    0 18px 36px -6px rgba(0,0,0,0.1);
+    padding: 40px 40px 20px 20px;
+    margin-left: 30px;
+    height: 100%;
+}
+
+#idLPBeneficios ul img{
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+#idLPBeneficios .image img{
+    height: 350px;
+    width: 590px;
+    float: right;
+}
+
+/* FOOTER */
+.footer{
+    width: 100% !important;
+    height: 123px !important;
+    overflow: hidden;
+}

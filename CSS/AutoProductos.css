@@ -1,0 +1,184 @@
+/* NAVEGADOR */
+#idNav1{
+    background-color: rgb(12, 45, 87);
+}
+
+#idTituloTienda{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    outline: none;
+    margin-left: -6px;
+}
+
+#idNavLinks1{
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+#idNavOptions1{
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+#idNav2{
+    background-color: rgb(252, 103, 54);
+    height: 40px;
+}
+
+#idNavLinks2{
+    font-family: Tahoma;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#idNavOptions2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 50px;
+}
+
+#idBody{
+    background-color: rgb(239, 236, 236);
+}
+
+/*Barra Lateral*/
+.barra-lateral{
+    background:  rgb(252, 103, 54);
+    min-width: 25px;
+    min-height: 100vh;
+}
+
+.barra-lateral a{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-inline: 0px;
+    margin-top: 20px;
+}
+
+.barra-lateral .menu a{
+    display: block;
+    padding: 15px;
+    font-family: Tahoma;
+    font-weight: 50;
+    border-bottom: 1px ;
+}
+
+.barra-lateral .menu a:hover{
+    background-color: rgb(255, 201, 176);
+}
+
+.barra-lateral .menu a i{
+    margin-right: 10px;
+}
+
+.main{
+    padding-top: 20px;
+}
+
+.main .columna{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* TABLAS */
+
+#idNASubtitulos{
+    display: flex;
+    justify-content: center;
+}
+
+#idNASubtitulos label{
+    background-color: rgb(4, 71, 122);
+    color: white;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#idNATabla thead th{
+    background-color: rgb(80, 160, 197);
+    color:white;
+    border-color: rgb(80, 160, 197);
+}
+
+#idNATabla thead th.item-1{
+    text-align: center;
+}
+
+#idNATabla tbody th{
+    background-color: rgb(255, 201, 176);
+    color: brown;
+    border-color: rgba(165, 42, 42, 0.3);
+}
+
+#idNATabla td{
+    border-color: rgba(165, 42, 42, 0.2);
+}
+
+#idNATabla tbody tr{
+    transition: all 100ms;
+}
+
+#idNATabla tbody tr:hover{
+    background-color: rgba(253, 224, 199, 0.5);
+}
+
+#idNATabla img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    object-fit:cover;
+}
+
+#idNATabla button.btn-success{
+    border: none;
+    outline: none;
+    background-color: rgb(58, 175, 132);
+    color: white;
+}
+
+#idNATabla button.btn-success:hover{
+    background-color: rgb(36, 128, 105);
+}
+
+
+#idNATabla button.btn-danger{
+    border: none;
+    outline: none;
+    background-color: rgb(214, 57, 57);
+}
+
+#idNATabla button.btn-danger:hover{
+    background-color: brown;
+}
+
+
+/*mediaquerys*/
+
+@media screen and (max-width:1300px) {
+    .barra-lateral{
+        min-width: auto;
+    }
+    .barra-lateral .menu a span{
+        display: none;
+    }
+    .barra-lateral .menu a i{
+        margin: 0;
+    }
+    .barra{
+        min-width: auto;
+    }
+    .dropdown-menu{
+        margin: 20px - 79px 0px;
+    }
+}
+
+
+
