@@ -56,7 +56,7 @@ $contactosNoPertenecidos = $listaDeContactos -> ObtenerContactosNoPertenecidos($
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="Login.html">Cerrar Sesión</a>
+                            <a class="nav-link" href="index.html">Cerrar Sesión</a>
                         </li>
                     </ul>
                 </div>
