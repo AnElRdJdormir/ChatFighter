@@ -1,0 +1,183 @@
+@media only screen and(max-width: 600px){
+
+}
+@media only screen and(min-width: 601px){
+
+}
+@media only screen and(min-width:1025px){
+    
+} 
+
+/* CUERPO */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 1;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../Images/POI/Fondo.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    background-color: RGBA( 128, 128, 128, 0.75 );
+    border: 2px solid rgba(255, 255, 255, alpha);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .Titulo label{
+    font-weight: bold;
+    height: 100px;
+    font-family: 'DeStencilNF';
+    font-size: 3.5rem;
+    color: RGBA( 90, 0, 0);
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 1.2px black;
+}
+
+
+.container{
+    
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+
+.email{
+    font-family: 'DeStencilNF';
+    font-size: 2.5rem;
+    position: relative;
+    margin: 30px 10;
+    width: 300px;
+    border-bottom: 2px solid;
+
+}
+
+.email label{
+    font-family: 'DeStencilNF';
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    color: black;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+.Password{
+    
+    position:relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid;
+
+}
+
+.Password label{
+    font-family: 'DeStencilNF';
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    color: black;
+
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 1.2px white;
+    top: -5px;
+}
+
+.email input{
+    width: 97%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    padding: -35px 0 5px;
+    color: #fff;
+}
+
+.Password input{
+    width: 97%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    padding: -35px 0 5px;
+    color: #fff;
+}
+
+.Inicio button{
+    /*
+    --color: RGBA( 90, 0, 0);
+    --dark-color: color-mix(in srgb, var(--color), black 25%);
+    --light-color: color-mix(in srgb, var(--color), white 25%);
+    */
+
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    border: none/*px solid var(--light-color)*/;
+    background: #fff/*RGBA( 249, 1, 0)*/;
+
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    transition: .4s;
+}
+
+.Inicio button:hover{
+    opacity: .9;
+}
+
+.container .Registro{
+    font-size: 1.5rem;
+    -webkit-text-fill-color: RGBA( 218, 2, 3);
+    -webkit-text-stroke: 0.25px white;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.Registro p a{
+    text-decoration: none;
+    -webkit-text-fill-color: RGBA( 218, 2, 3);
+    -webkit-text-stroke: 0.25px white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.Registro p a:hover{
+    -webkit-text-fill-color: RGBA( 250, 0, 1);
+    -webkit-text-stroke: 0.25px white;
+    text-decoration:double;
+}
+
